@@ -15,6 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <QueryClientProvider client={queryClient}>
       <Provider store={store}>
         <BrowserRouter
+          basename="/Plattform-VK-Marusya"
           future={{
             v7_relativeSplatPath: true,
             v7_startTransition: true,
