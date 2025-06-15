@@ -3,6 +3,7 @@ import {resolve} from 'path'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
+  base: '/Plattform-VK-Marusya/',
   plugins: [react()],
   resolve: {
     alias: {
