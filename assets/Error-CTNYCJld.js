@@ -1,0 +1,1 @@
+import{j as r}from"./index-BBlGL6Vj.js";const a=({message:s})=>r.jsx("div",{className:"container wrap-error",children:r.jsxs("span",{className:"error",children:["Произошла ошибка ",s]})});export{a as E};
